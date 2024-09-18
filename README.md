@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/69cec3cc-ad1e-4f75-adc7-8b876c206233)# Jarkom-Modul-1-IT08-2024
+# Jarkom-Modul-1-IT08-2024
 
 | Nama          | NRP          |
 | ------------- | ------------ |
