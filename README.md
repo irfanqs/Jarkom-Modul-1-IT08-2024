@@ -80,8 +80,21 @@ Untuk mendapatkan kredensial login, saya mengecek secara manual setiap stream da
 ![image](https://github.com/user-attachments/assets/9663c278-545b-4d5a-a2a1-d7f6ea3ff971)
 
 ### 10. Malicious Code (breach.pcap)
-Attacker melakukan bruteforce sebanyak 52 kali, dimulai dari stream 3 hingga stream 54 hingga ia mendapatkan index.php
-
+Attacker melakukan bruteforce sebanyak 52 kali, dimulai dari stream 3 hingga stream 54 hingga ia mendapatkan `index.php`
+![image](https://github.com/user-attachments/assets/006aecad-b327-4437-9f78-4d66b69e833c)
+Di stream 207, attacker menemukan kredensialnya. Percobaan dilakukan dari stream ke 55 hingga 207 (153 kali)
+![image](https://github.com/user-attachments/assets/885d9ae8-c123-4b27-a485-f40fba4b4e59)
+Di stream 221, attacker meninggalkan sebuah pesan yang dapat dipecahkan menggunakan charcode, namun dengan pemenggalan angka yang baik
+![image](https://github.com/user-attachments/assets/f5240607-d937-4dfe-b0de-2351b32aca15)
+![image](https://github.com/user-attachments/assets/39083cab-12b2-477f-aae3-ef9c80985508)
 ![image](https://github.com/user-attachments/assets/04c707c1-15e2-4bc2-a085-1df83519a4b2)
 ![image](https://github.com/user-attachments/assets/47e5a8e8-bcc4-4d0e-957a-7fa5db0cc24b)
+
+### 11. EZ (ez.pcapng)
+Jawaban langsung ditemukan di `tcp.stream eq 0`
+![image](https://github.com/user-attachments/assets/8e3e30ea-964f-4668-a47b-ef9f2d928646)
+![image](https://github.com/user-attachments/assets/fc5b2903-b3c7-4aa7-a00e-a95191673d12)
+![image](https://github.com/user-attachments/assets/b2983813-9232-4e28-9422-cc925cefadcb)
+
+
 
