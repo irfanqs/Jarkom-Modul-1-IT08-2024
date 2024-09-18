@@ -2,7 +2,7 @@
 
 | Nama          | NRP          |
 | ------------- | ------------ |
-| | 50272210 |
+| Irfan Qobus Salim | 5027221058 |
 | Aisha Ayya Ratiandari | 5027231056 |
 
 ### 1. Advance Sanity Check
