@@ -44,8 +44,11 @@ untuk password sendiri, diperlukan hashing dan hasilnya adalah sebagai berikut
 
 ### 11. Gajah Terbang (Attacker Recon)
 melanjutkan soal sebelumnya, menggunakan package yang sama, kita bisa mendapatkan informasi berupa
-
-
+![Screenshot (26)](https://github.com/user-attachments/assets/31fd5099-46d8-47f5-b6ac-2023e807ff5a)
+untuk bagian attacker, disini saya mencoba-coba saja, dan setelah mengamati dari informasi tersebut saya mendapatkan hasilnya
+![image](https://github.com/user-attachments/assets/694caa7e-a4c2-466f-8117-c8b1a64baf63)
+untuk password dari attacker saya dapatkan dari hashing password tersebut, dan ini hasilnya
+![Screenshot 2024-09-19 003635](https://github.com/user-attachments/assets/eb82051d-64a6-4358-8cce-ddce1be59543)
 
 
 
