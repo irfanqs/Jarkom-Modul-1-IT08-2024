@@ -32,6 +32,19 @@ setelah saya mencari-cari, saya menemukan satu file yang cukup janggal dengan na
 Setelah didecode, hasilnya adalah berbentuk leetspeet yanga dalah pesan dari attackernya
 ![Screenshot (24)](https://github.com/user-attachments/assets/ebab4cd2-eb4c-4467-bdce-eb6b90ae383f)
 
+### 10. Gajah Terbang (Server Recon)
+untuk soal ini, pertama saya mencari satu-satu hingga menemukan satu paket yang berisi informasi berupa nama, email, dan password, disana dapat ditemukan informasi berupa dbms yang digunakan di server tersebut, nama database, email, dan password dari admin
+![Screenshot (28)](https://github.com/user-attachments/assets/1e8bc44b-78a5-4326-a2c2-a7895
+![Screenshot (29)](https://github.com/user-attachments/assets/4939a533-2ae5-4a3e-aaf4-49a2799bc575)
+802d1bf)
+untuk port yang digunakan, bisa didapat dari package (174) tersebut juga
+![Screenshot (27)](https://github.com/user-attachments/assets/750287bb-c217-4458-a8a3-557b60b9e451)
+untuk password sendiri, diperlukan hashing dan hasilnya adalah sebagai berikut
+![image](https://github.com/user-attachments/assets/1db2165d-c75f-43e9-9bf9-6693206b1056)
+
+### 11. Gajah Terbang (Attacker Recon)
+melanjutkan soal sebelumnya, menggunakan package yang sama, kita bisa mendapatkan informasi berupa
+
 
 
 
