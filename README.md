@@ -15,7 +15,22 @@ Disana kita mendapatkan informasi bahwa petunjuk berikutnya ada di dalam peratur
 Lalu kita mendapatkan "cGVud29yZA==" dimana kita akan men-decodenya dan menghasilkan kata "penword" sebagai jawaban untuk soal terakhir
 ![Screenshot (19)](https://github.com/user-attachments/assets/cc4de6dd-ad3c-45f7-9f66-d53510a097be)
 
-### 1. FTP Login
+### 4. FTP Login
+![Screenshot (20)](https://github.com/user-attachments/assets/5044a37a-6667-42d5-b6c1-44932cb91bcf)
+Pertama mencoba mencari user yang berhasil login, dari sana kita bisa mendapatkan informasi berupa username beserta passwordnya, dari sana kita berhasil mendapatkan flagnya
+![Screenshot (19) (1)](https://github.com/user-attachments/assets/e6b54950-ddec-4730-ae19-ce7c41a21297)
+
+### 5. Surprise
+melanjutkan soal sebelumnya, disini kita diminta untuk mengetahui service yang digunakan oleh FTP server
+![Screenshot (21)](https://github.com/user-attachments/assets/382ca43e-795d-4f25-8b32-305860853daf)
+disana kita bisa mengetahui informasi tersebut telah disebut di paling awal
+lalu untuk mengetahui nama file yang dikirim oleh attacker beradda di informasi paling bawah
+![Screenshot (22)](https://github.com/user-attachments/assets/b532b773-39e5-40e5-9252-0e4661467679)
+Selain itu, kita dimint auntuk mencari pesan yang ditinggalkan oleh attacker,
+setelah saya mencari-cari, saya menemukan satu file yang cukup janggal dengan nama file yang sama denga yang dikirim oleh attacker
+
+
+
 
 
 
