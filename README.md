@@ -57,5 +57,31 @@ untuk menjawab pertanyaan pertama hingga terakhir, kita bisa mendapatkan informa
 ![image](https://github.com/user-attachments/assets/182d8867-1a3c-43aa-a783-cac73b8ce2fa)
 untuk mencapai `tcp.stream eq 1917`, saya melihat stream awal-awal terlebih dahulu dan kelihatan jika kredensial selalu salah saat dimasukkan. Akhirnya saya mencoba untuk mengurutkan stream dari belakang dan akhirnya menemukan kredensial yang tepat.
 
+### 7. Packets Barrage (break.pcapng)
+setelah mencapai stream nomor 1917, stream selanjutnya adalah stream 1918, yang di mana di dalam stream tersebut attacker mengunduh sebuah file. IP address attacker juga tercantum di dalam stream ini.
+![image](https://github.com/user-attachments/assets/26c7dbd1-d8b0-44b6-8387-9b61a7ee2b9e)
+![image](https://github.com/user-attachments/assets/f5084c8a-2a57-400b-9c04-db98ebe4be7f)
+![image](https://github.com/user-attachments/assets/5adeb7f6-c0fd-41d0-aac7-2472550f89a8)
+![image](https://github.com/user-attachments/assets/19d965d7-3739-4c7f-abee-43da9be2522b)
 
+### 8. Rizzset (riset.pcapng)
+Dari wireshark, saya hanya mendapat informasi mengenai domain dari dns query pada log, yaitu www.its.ac.id. Untuk mendapat dns nya, saya melakukan ping kepada website ITS.
+![image](https://github.com/user-attachments/assets/d990ce8f-12a1-4718-a9cb-f745b274d169)
+![image](https://github.com/user-attachments/assets/283c16e2-ed1c-47c7-9f86-5aa26094b891)
+Untuk mendapatkan JARM Fingerprint dari website ITS, saya menggunakan program python bernama `jarm.py` untuk mendapatkan JARM nya.
+![image](https://github.com/user-attachments/assets/8130002b-c380-42f8-abf2-141aafbebf2a)
+![image](https://github.com/user-attachments/assets/a21abce5-41e8-41f9-82cb-170af6787a75)
+
+### 9. Corporate Breach (breach.pcap)
+Untuk mendapatkan nama attacker, kita dapat melihat informasinya di `tcp.stream eq 0`
+![image](https://github.com/user-attachments/assets/74a0136b-acca-42ce-ba67-5b490fb10316)
+Untuk mendapatkan kredensial login, saya mengecek secara manual setiap stream dan saya menemukannya di `tcp.stream eq 207`
+![image](https://github.com/user-attachments/assets/abe47863-0cdd-447a-865f-923d9998573e)
+![image](https://github.com/user-attachments/assets/9663c278-545b-4d5a-a2a1-d7f6ea3ff971)
+
+### 10. Malicious Code (breach.pcap)
+Attacker melakukan bruteforce sebanyak 52 kali, dimulai dari stream 3 hingga stream 54 hingga ia mendapatkan index.php
+
+![image](https://github.com/user-attachments/assets/04c707c1-15e2-4bc2-a085-1df83519a4b2)
+![image](https://github.com/user-attachments/assets/47e5a8e8-bcc4-4d0e-957a-7fa5db0cc24b)
 
