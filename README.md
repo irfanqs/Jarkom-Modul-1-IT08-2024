@@ -1,4 +1,4 @@
-# Jarkom-Modul-1-IT08-2024
+![image](https://github.com/user-attachments/assets/69cec3cc-ad1e-4f75-adc7-8b876c206233)# Jarkom-Modul-1-IT08-2024
 
 | Nama          | NRP          |
 | ------------- | ------------ |
@@ -15,24 +15,24 @@ Disana kita mendapatkan informasi bahwa petunjuk berikutnya ada di dalam peratur
 Lalu kita mendapatkan "cGVud29yZA==" dimana kita akan men-decodenya dan menghasilkan kata "penword" sebagai jawaban untuk soal terakhir
 ![Screenshot (19)](https://github.com/user-attachments/assets/cc4de6dd-ad3c-45f7-9f66-d53510a097be)
 
-### 4. FTP Login
+### 2. FTP Login
 ![Screenshot (20)](https://github.com/user-attachments/assets/5044a37a-6667-42d5-b6c1-44932cb91bcf)
 Pertama mencoba mencari user yang berhasil login, dari sana kita bisa mendapatkan informasi berupa username beserta passwordnya, dari sana kita berhasil mendapatkan flagnya
 ![Screenshot (19) (1)](https://github.com/user-attachments/assets/e6b54950-ddec-4730-ae19-ce7c41a21297)
 
-### 5. Surprise
+### 3. Surprise
 melanjutkan soal sebelumnya, disini kita diminta untuk mengetahui service yang digunakan oleh FTP server
 ![Screenshot (21)](https://github.com/user-attachments/assets/382ca43e-795d-4f25-8b32-305860853daf)
 disana kita bisa mengetahui informasi tersebut telah disebut di paling awal
 lalu untuk mengetahui nama file yang dikirim oleh attacker beradda di informasi paling bawah
 ![Screenshot (22)](https://github.com/user-attachments/assets/b532b773-39e5-40e5-9252-0e4661467679)
 Selain itu, kita dimint auntuk mencari pesan yang ditinggalkan oleh attacker,
-setelah saya mencari-cari, saya menemukan satu file yang cukup janggal dengan nama file yang sama denga yang dikirim oleh attacker
+setelah saya mencari-cari, saya menemukan satu file yang cukup janggal dengan nama file yang sama dengan yang dikirim oleh attacker
 ![Screenshot (23)](https://github.com/user-attachments/assets/34081683-d9f6-4dfc-9588-dd02e426a547)
 Setelah didecode, hasilnya adalah berbentuk leetspeet yanga dalah pesan dari attackernya
 ![Screenshot (24)](https://github.com/user-attachments/assets/ebab4cd2-eb4c-4467-bdce-eb6b90ae383f)
 
-### 10. Gajah Terbang (Server Recon)
+### 4. Gajah Terbang (Server Recon)
 untuk soal ini, pertama saya mencari satu-satu hingga menemukan satu paket yang berisi informasi berupa nama, email, dan password, disana dapat ditemukan informasi berupa dbms yang digunakan di server tersebut, nama database, email, dan password dari admin
 ![Screenshot (28)](https://github.com/user-attachments/assets/1e8bc44b-78a5-4326-a2c2-a7895
 ![Screenshot (29)](https://github.com/user-attachments/assets/4939a533-2ae5-4a3e-aaf4-49a2799bc575)
@@ -42,7 +42,7 @@ untuk port yang digunakan, bisa didapat dari package (174) tersebut juga
 untuk password sendiri, diperlukan hashing dan hasilnya adalah sebagai berikut
 ![image](https://github.com/user-attachments/assets/1db2165d-c75f-43e9-9bf9-6693206b1056)
 
-### 11. Gajah Terbang (Attacker Recon)
+### 5. Gajah Terbang (Attacker Recon)
 melanjutkan soal sebelumnya, menggunakan package yang sama, kita bisa mendapatkan informasi berupa
 ![Screenshot (26)](https://github.com/user-attachments/assets/31fd5099-46d8-47f5-b6ac-2023e807ff5a)
 untuk bagian attacker, disini saya mencoba-coba saja, dan setelah mengamati dari informasi tersebut saya mendapatkan hasilnya
@@ -50,7 +50,12 @@ untuk bagian attacker, disini saya mencoba-coba saja, dan setelah mengamati dari
 untuk password dari attacker saya dapatkan dari hashing password tersebut, dan ini hasilnya
 ![Screenshot 2024-09-19 003635](https://github.com/user-attachments/assets/eb82051d-64a6-4358-8cce-ddce1be59543)
 
-
+### 6. Illegal Breakthrough (break.pcapng)
+untuk menjawab pertanyaan pertama hingga terakhir, kita bisa mendapatkan informasi dari `tcp.stream eq 1917`
+![image](https://github.com/user-attachments/assets/9c92d715-5622-4fe4-b073-20a314fc3753)
+![image](https://github.com/user-attachments/assets/e799e963-21ee-4e0d-9013-9a9e80b606f2)
+![image](https://github.com/user-attachments/assets/182d8867-1a3c-43aa-a783-cac73b8ce2fa)
+untuk mencapai `tcp.stream eq 1917`, saya melihat stream awal-awal terlebih dahulu dan kelihatan jika kredensial selalu salah saat dimasukkan. Akhirnya saya mencoba untuk mengurutkan stream dari belakang dan akhirnya menemukan kredensial yang tepat.
 
 
 
