@@ -96,5 +96,11 @@ Jawaban langsung ditemukan di `tcp.stream eq 0`
 ![image](https://github.com/user-attachments/assets/fc5b2903-b3c7-4aa7-a00e-a95191673d12)
 ![image](https://github.com/user-attachments/assets/b2983813-9232-4e28-9422-cc925cefadcb)
 
+### 12. Stegography (image.pcap)
+
+### 13. 22 Nightmare (oimazrim.pcap)
+
+### 14. Pegawai Negeri Sebelah (rahasia.pcap)
+
 
 
