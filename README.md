@@ -28,7 +28,9 @@ lalu untuk mengetahui nama file yang dikirim oleh attacker beradda di informasi 
 ![Screenshot (22)](https://github.com/user-attachments/assets/b532b773-39e5-40e5-9252-0e4661467679)
 Selain itu, kita dimint auntuk mencari pesan yang ditinggalkan oleh attacker,
 setelah saya mencari-cari, saya menemukan satu file yang cukup janggal dengan nama file yang sama denga yang dikirim oleh attacker
-
+![Screenshot (23)](https://github.com/user-attachments/assets/34081683-d9f6-4dfc-9588-dd02e426a547)
+Setelah didecode, hasilnya adalah berbentuk leetspeet yanga dalah pesan dari attackernya
+![Screenshot (24)](https://github.com/user-attachments/assets/ebab4cd2-eb4c-4467-bdce-eb6b90ae383f)
 
 
 
