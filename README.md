@@ -97,8 +97,13 @@ Jawaban langsung ditemukan di `tcp.stream eq 0`
 ![image](https://github.com/user-attachments/assets/b2983813-9232-4e28-9422-cc925cefadcb)
 
 ### 12. Stegography (image.pcap)
-
-
+Untuk mengetahui jumlah gambar yang dikirim, kita dapat mengeceknya di `tcp.stream eq 0`
+![image](https://github.com/user-attachments/assets/fcd2b941-dd87-49ca-8eb1-52d9874a42da)
+Untuk mengetahui pesan yang tersembunyi di dalam foto, kita perlu mengunduh fotonya dengan filezilla
+![image](https://github.com/user-attachments/assets/51613226-7a15-4319-b40b-fe358f7f6d6e)
+Setelah itu, kita dapat mengetahui foto tersebut memiliki pesan atau tidak menggunakan file python bawaan yang bernama `reversed.py`
+![image](https://github.com/user-attachments/assets/fc1b3827-e4a1-4a39-b6c2-02fe5061833a)
+![image](https://github.com/user-attachments/assets/38fdd95f-220e-4ba1-a903-56a932adc098)
 
 ### 13. 22 Nightmare (oimazrim.pcap)
 Saya menggunakan filter untuk mencari tcp, kemudian saya menelusuri streamnya dan saya menemukan kredensial yang tepat di `tcp.stream eq 3`
