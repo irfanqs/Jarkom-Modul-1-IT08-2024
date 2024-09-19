@@ -43,7 +43,7 @@ untuk password sendiri, diperlukan hashing dan hasilnya adalah sebagai berikut
 ![image](https://github.com/user-attachments/assets/1db2165d-c75f-43e9-9bf9-6693206b1056)
 
 ### 5. Gajah Terbang (Attacker Recon)
-melanjutkan soal sebelumnya, menggunakan package yang sama, kita bisa mendapatkan informasi berupa
+melanjutkan soal sebelumnya, menggunakan package yang sama, kita bisa mendapatkan informasi berupa <br>
 ![Screenshot (26)](https://github.com/user-attachments/assets/31fd5099-46d8-47f5-b6ac-2023e807ff5a)
 untuk bagian attacker, disini saya mencoba-coba saja, dan setelah mengamati dari informasi tersebut saya mendapatkan hasilnya
 ![image](https://github.com/user-attachments/assets/694caa7e-a4c2-466f-8117-c8b1a64baf63)
@@ -51,14 +51,14 @@ untuk password dari attacker saya dapatkan dari hashing password tersebut, dan i
 ![Screenshot 2024-09-19 003635](https://github.com/user-attachments/assets/eb82051d-64a6-4358-8cce-ddce1be59543)
 
 ### 6. Illegal Breakthrough (break.pcapng)
-untuk menjawab pertanyaan pertama hingga terakhir, kita bisa mendapatkan informasi dari `tcp.stream eq 1917`
+Untuk menjawab pertanyaan pertama hingga terakhir, kita bisa mendapatkan informasi dari `tcp.stream eq 1917`
 ![image](https://github.com/user-attachments/assets/9c92d715-5622-4fe4-b073-20a314fc3753)
 ![image](https://github.com/user-attachments/assets/e799e963-21ee-4e0d-9013-9a9e80b606f2)
 ![image](https://github.com/user-attachments/assets/182d8867-1a3c-43aa-a783-cac73b8ce2fa)
 untuk mencapai `tcp.stream eq 1917`, saya melihat stream awal-awal terlebih dahulu dan kelihatan jika kredensial selalu salah saat dimasukkan. Akhirnya saya mencoba untuk mengurutkan stream dari belakang dan akhirnya menemukan kredensial yang tepat.
 
 ### 7. Packets Barrage (break.pcapng)
-setelah mencapai stream nomor 1917, stream selanjutnya adalah stream 1918, yang di mana di dalam stream tersebut attacker mengunduh sebuah file. IP address attacker juga tercantum di dalam stream ini.
+Setelah mencapai stream nomor 1917, stream selanjutnya adalah stream 1918, yang di mana di dalam stream tersebut attacker mengunduh sebuah file. IP address attacker juga tercantum di dalam stream ini.
 ![image](https://github.com/user-attachments/assets/26c7dbd1-d8b0-44b6-8387-9b61a7ee2b9e)
 ![image](https://github.com/user-attachments/assets/f5084c8a-2a57-400b-9c04-db98ebe4be7f)
 ![image](https://github.com/user-attachments/assets/5adeb7f6-c0fd-41d0-aac7-2472550f89a8)
@@ -98,9 +98,28 @@ Jawaban langsung ditemukan di `tcp.stream eq 0`
 
 ### 12. Stegography (image.pcap)
 
+
+
 ### 13. 22 Nightmare (oimazrim.pcap)
+Saya menggunakan filter untuk mencari tcp, kemudian saya menelusuri streamnya dan saya menemukan kredensial yang tepat di `tcp.stream eq 3`
+![image](https://github.com/user-attachments/assets/7cb1b610-d517-4143-9902-c51e1aaa91cd)
+Di stream tersebut, saya melihat bahwa ada gambar yang dikirimkan, oleh karena itu saya mencoba untuk mengakses gambar tersebut di filezilla dan menemukan 2 jenis file
+![image](https://github.com/user-attachments/assets/208b3adf-a147-4368-abf5-658e2b4f6acb)
+Di dalam file foto tersebut, terdapat kata string yang dimaksud di dalam soal
+![image](https://github.com/user-attachments/assets/e9ceb007-a510-4865-91e8-faaeff6d4b84)
+Untuk mengetahui kapan file kedua dikirim, saya menelusuri tiap stream dan saya menemukan stream ketika file kedua dikirim di stream nomor 141
+![image](https://github.com/user-attachments/assets/1a34a933-545c-41b6-88e6-3ba45824ef80)
+Untuk mengetahui nama pengirim, saya mencoba mengakses stream 142 dan menemukan informasi berikut
+![image](https://github.com/user-attachments/assets/13d97a77-0935-4b5f-b0e5-2c869dcdfb66)
+Setelah itu, decode dengan xor menggunakan key yang berada di dalam gambar
+![image](https://github.com/user-attachments/assets/a95bab2d-cb4e-420d-a13a-01a5a97e9385)
+![image](https://github.com/user-attachments/assets/bdbfed38-43de-40ec-83cf-27cde5c225c9)
 
 ### 14. Pegawai Negeri Sebelah (rahasia.pcap)
+List nama, password, dan jabatan, langsung ditemukan di `tcp.stream eq 1`. Untuk mencari jawaban dari setiap pertanyaan, saya menggunakan fitur find untuk menemukan kredensial yang cocok
+![image](https://github.com/user-attachments/assets/8dab55c7-85d4-4d7a-b607-53dde00f2d28)
+![image](https://github.com/user-attachments/assets/7d157b48-2bb9-436f-90b4-b3cca842c7e7)
+
 
 
 
