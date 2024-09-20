@@ -134,18 +134,19 @@ List nama, password, dan jabatan, langsung ditemukan di `tcp.stream eq 1`. Untuk
     setelah memfilter menggunakan HTTP, ada sebuah package yang menjelaskan bahwa hacker berhasil mengupload, yang dapat dilihat arrival datenya     
 2. endpoint url dan server yang rentan
 3. nama webshell yang diupload    
-     ![image 1](https://github.com/user-attachments/assets/09fc1bf1-deac-49c8-b292-5429cb970f7c)
+     ![image](https://github.com/user-attachments/assets/09fc1bf1-deac-49c8-b292-5429cb970f7c)
     endpoint dan nama webshell ada di package tersebut    
 4. command pertama yang berhasil dieksekusi    
-    ![image 2](https://github.com/user-attachments/assets/fe572e0c-47cd-4fd3-98e8-a4182304c20b)
+    ![image](https://github.com/user-attachments/assets/fe572e0c-47cd-4fd3-98e8-a4182304c20b)
     melihat dari waktunya, maka command pertama yang berhasil dieksekusi tertera diatas yaitu “whoami”    
 5. Berdasarkan log, hacker tersebut mencoba menuliskan pesan, apa pesan yang hacker coba tuliskan?    
     selain command “whoami”, hacker juga meng-echo berupa encode base64    
-    ![image 3](https://github.com/user-attachments/assets/956c72a7-0612-4ccc-ba3c-16fcbdf2a473)
+    ![image](https://github.com/user-attachments/assets/956c72a7-0612-4ccc-ba3c-16fcbdf2a473)
     yang dimana, setelah di decode akan menampilkan pesannya    
-   ![image 4](https://github.com/user-attachments/assets/ccc3313d-403e-41c3-ada2-7a9dca3227e2)
+   ![image](https://github.com/user-attachments/assets/ccc3313d-403e-41c3-ada2-7a9dca3227e2)
 soal selesai dan menampilkan flagnya
-![Uploading image 5.png…]()
+![image](https://github.com/user-attachments/assets/a8f89d25-bd63-4881-be8d-0aa730b1604c)
+
 
 
 
