@@ -1,4 +1,4 @@
-# Jarkom-Modul-1-IT08-2024
+![image 5](https://github.com/user-attachments/assets/77ad18c3-ffec-481e-b1d8-837af4346988)# Jarkom-Modul-1-IT08-2024
 
 | Nama          | NRP          |
 | ------------- | ------------ |
@@ -126,4 +126,28 @@ List nama, password, dan jabatan, langsung ditemukan di `tcp.stream eq 1`. Untuk
 ![image](https://github.com/user-attachments/assets/7d157b48-2bb9-436f-90b4-b3cca842c7e7)
 
 ## Revisi
+
+### innerRCE
+
+1. Kapan hacker berhasil upload webshell?
+    ![image](https://github.com/user-attachments/assets/ff071d28-7dc9-4df5-a421-c1de32fe6edc)
+    setelah memfilter menggunakan HTTP, ada sebuah package yang menjelaskan bahwa hacker berhasil mengupload, yang dapat dilihat arrival datenya     
+2. endpoint url dan server yang rentan
+3. nama webshell yang diupload    
+     ![image 1](https://github.com/user-attachments/assets/09fc1bf1-deac-49c8-b292-5429cb970f7c)
+    endpoint dan nama webshell ada di package tersebut    
+4. command pertama yang berhasil dieksekusi    
+    ![image 2](https://github.com/user-attachments/assets/fe572e0c-47cd-4fd3-98e8-a4182304c20b)
+    melihat dari waktunya, maka command pertama yang berhasil dieksekusi tertera diatas yaitu “whoami”    
+5. Berdasarkan log, hacker tersebut mencoba menuliskan pesan, apa pesan yang hacker coba tuliskan?    
+    selain command “whoami”, hacker juga meng-echo berupa encode base64    
+    ![image 3](https://github.com/user-attachments/assets/956c72a7-0612-4ccc-ba3c-16fcbdf2a473)
+    yang dimana, setelah di decode akan menampilkan pesannya    
+   ![image 4](https://github.com/user-attachments/assets/ccc3313d-403e-41c3-ada2-7a9dca3227e2)
+soal selesai dan menampilkan flagnya
+![Uploading image 5.png…]()
+
+
+
+
 
