@@ -1,4 +1,4 @@
-![image 5](https://github.com/user-attachments/assets/77ad18c3-ffec-481e-b1d8-837af4346988)# Jarkom-Modul-1-IT08-2024
+# Jarkom-Modul-1-IT08-2024
 
 | Nama          | NRP          |
 | ------------- | ------------ |
@@ -146,6 +146,11 @@ List nama, password, dan jabatan, langsung ditemukan di `tcp.stream eq 1`. Untuk
    ![image](https://github.com/user-attachments/assets/ccc3313d-403e-41c3-ada2-7a9dca3227e2)
 soal selesai dan menampilkan flagnya
 ![image](https://github.com/user-attachments/assets/a8f89d25-bd63-4881-be8d-0aa730b1604c)
+
+### simba
+![image](https://github.com/user-attachments/assets/020795d5-c919-4355-a5c4-878198b82939)
+![image](https://github.com/user-attachments/assets/e12d88b3-fec8-4429-b179-081e07088811)
+
 
 
 
