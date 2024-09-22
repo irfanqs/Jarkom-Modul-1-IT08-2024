@@ -55,9 +55,8 @@ Setelah didecode, hasilnya adalah berbentuk leetspeet yanga dalah pesan dari att
 
 ### 4. Gajah Terbang (Server Recon)
 untuk soal ini, pertama saya mencari satu-satu hingga menemukan satu paket yang berisi informasi berupa nama, email, dan password, disana dapat ditemukan informasi berupa dbms yang digunakan di server tersebut, nama database, email, dan password dari admin
-![Screenshot (28)](https://github.com/user-attachments/assets/1e8bc44b-78a5-4326-a2c2-a7895
+![Screenshot (28)](https://github.com/user-attachments/assets/1e8bc44b-78a5-4326-a2c2-a7895802d1bf)
 ![Screenshot (29)](https://github.com/user-attachments/assets/4939a533-2ae5-4a3e-aaf4-49a2799bc575)
-802d1bf)
 untuk port yang digunakan, bisa didapat dari package (174) tersebut juga
 ![Screenshot (27)](https://github.com/user-attachments/assets/750287bb-c217-4458-a8a3-557b60b9e451)
 untuk password sendiri, diperlukan hashing dan hasilnya adalah sebagai berikut
