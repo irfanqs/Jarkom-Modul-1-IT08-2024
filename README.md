@@ -148,8 +148,24 @@ soal selesai dan menampilkan flagnya
 ![image](https://github.com/user-attachments/assets/a8f89d25-bd63-4881-be8d-0aa730b1604c)
 
 ### simba
+
 ![image](https://github.com/user-attachments/assets/020795d5-c919-4355-a5c4-878198b82939)
+![image](https://github.com/user-attachments/assets/57b669f7-6866-43ac-a9a3-8f295ba1e16d)
 ![image](https://github.com/user-attachments/assets/e12d88b3-fec8-4429-b179-081e07088811)
+
+### Baby Hengker
+Untuk menemukan kapan attacker masuk, kita dapat melihat data dari frame nomor 8
+![image](https://github.com/user-attachments/assets/6ddce9da-e649-4739-92dc-6cc9269693c8)
+Setelah itu, untuk mendapatkan informasi lebih terhadap USB tersebut, kita perlu menggunakan USB Keyboard Parser, yang dapat dijalankan menggunakan python
+![image](https://github.com/user-attachments/assets/b1ff9667-29f8-4e96-812f-2d9e77e321c0)
+Kita perlu menghapus kata yang double, sehingga kalimat menjadi `ini password wifinya apa ya?`. Setelah itu kita bisa mendapatkan flagnya
+![image](https://github.com/user-attachments/assets/9352f3aa-beca-4cda-8a2b-dae428a3008b)
+
+### Adult Hengker
+Untuk mengetahui device yang digunakan oleh mahasiswa, kita dapat menemukannya pada baris berikut. Terlihat bahwa mahasiswa tersebut menggunakan mouse
+![image](https://github.com/user-attachments/assets/b79ae857-98b7-430c-ba8c-2329d33e4cb6)
+
+
 
 
 
