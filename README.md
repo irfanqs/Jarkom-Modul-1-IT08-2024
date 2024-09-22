@@ -128,7 +128,6 @@ List nama, password, dan jabatan, langsung ditemukan di `tcp.stream eq 1`. Untuk
 ## Revisi
 
 ### innerRCE
-
 1. Kapan hacker berhasil upload webshell?
     ![image](https://github.com/user-attachments/assets/ff071d28-7dc9-4df5-a421-c1de32fe6edc)
     setelah memfilter menggunakan HTTP, ada sebuah package yang menjelaskan bahwa hacker berhasil mengupload, yang dapat dilihat arrival datenya     
@@ -148,8 +147,11 @@ soal selesai dan menampilkan flagnya
 ![image](https://github.com/user-attachments/assets/a8f89d25-bd63-4881-be8d-0aa730b1604c)
 
 ### simba
-
+Untuk menjawab pertanyaan pertama, saya mencoba untuk menjawab semua protokol yang ada, kemudian ditemukan jawabannya yaitu SMB
 ![image](https://github.com/user-attachments/assets/020795d5-c919-4355-a5c4-878198b82939)
+Selanjutnya, untuk mencari nama user, saya menggunakan find untuk mencari nama user. Dalam baris ini, terlihat jelas bahwa path tersebut menyebutkan nama usernya, yaitu mmeyers
+![image](https://github.com/user-attachments/assets/b33a2679-7f03-47d6-8ac2-319df2a87ed1)
+Untuk mendapatkan file yang terleak setiap enumerasinya, saya menggunakan fitur Export Objects > SMB untuk mencari jumlah filenya. Terhitung ada 14 file yang terleak
 ![image](https://github.com/user-attachments/assets/57b669f7-6866-43ac-a9a3-8f295ba1e16d)
 ![image](https://github.com/user-attachments/assets/e12d88b3-fec8-4429-b179-081e07088811)
 
@@ -164,6 +166,13 @@ Kita perlu menghapus kata yang double, sehingga kalimat menjadi `ini password wi
 ### Adult Hengker
 Untuk mengetahui device yang digunakan oleh mahasiswa, kita dapat menemukannya pada baris berikut. Terlihat bahwa mahasiswa tersebut menggunakan mouse
 ![image](https://github.com/user-attachments/assets/b79ae857-98b7-430c-ba8c-2329d33e4cb6)
+Untuk mendapatkan string yang ditanyakan, kita perlu menggunakan file USB Mouse Visualizer, yang dijalankan menggunakan python
+![image](https://github.com/user-attachments/assets/a0cc1ecb-0abc-4513-b4db-761aca946e7a)
+Setelah itu, file csv yang didapatkan perlu dimasukkan ke dalam tools online untuk memvisualisasi csv tersebut
+![image](https://github.com/user-attachments/assets/edeaec1f-d3f1-4300-af96-3242954376d7)
+Setelah itu, kita bisa mendapatkan flagnya
+![image](https://github.com/user-attachments/assets/ec938981-f412-4327-aeaa-e6b08aefd6fd)
+
 
 
 
