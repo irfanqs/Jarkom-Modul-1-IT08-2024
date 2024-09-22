@@ -5,7 +5,7 @@
 | Irfan Qobus Salim | 5027221058 |
 | Aisha Ayya Ratiandari | 5027231056 |
 
-# Daftar Isi
+## Daftar Isi
 
 1. [Advance Sanity Check](#1-advance-sanity-check)
 2. [FTP Login](#2-ftp-login)
@@ -21,12 +21,10 @@
 12. [Stegography (image.pcap)](#12-stegography-imagepcap)
 13. [22 Nightmare (oimazrim.pcap)](#13-22-nightmare-oimazrimpcap)
 14. [Pegawai Negeri Sebelah (rahasia.pcap)](#14-pegawai-negeri-sebelah-rahasiapcap)
-
-## Revisi
-15. [innerRCE](#innerrce)
-16. [simba](#simba)
-17. [Baby Hengker](#baby-hengker)
-18. [Adult Hengker](#adult-hengker)
+15. [Revisi - innerRCE](#innerrce)
+16. [Revisi - simba](#simba)
+17. [Revisi - Baby Hengker](#baby-hengker)
+18. [Revisi - Adult Hengker](#adult-hengker)
 
 ### 1. Advance Sanity Check
 ![image](https://github.com/user-attachments/assets/f9946ff3-7f82-435a-89ac-1a3bed12c644)
