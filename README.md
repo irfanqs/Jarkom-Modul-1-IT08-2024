@@ -5,6 +5,29 @@
 | Irfan Qobus Salim | 5027221058 |
 | Aisha Ayya Ratiandari | 5027231056 |
 
+# Daftar Isi
+
+1. [Advance Sanity Check](#1-advance-sanity-check)
+2. [FTP Login](#2-ftp-login)
+3. [Surprise](#3-surprise)
+4. [Gajah Terbang (Server Recon)](#4-gajah-terbang-server-recon)
+5. [Gajah Terbang (Attacker Recon)](#5-gajah-terbang-attacker-recon)
+6. [Illegal Breakthrough (break.pcapng)](#6-illegal-breakthrough-breakpcapng)
+7. [Packets Barrage (break.pcapng)](#7-packets-barrage-breakpcapng)
+8. [Rizzset (riset.pcapng)](#8-rizzset-risetpcapng)
+9. [Corporate Breach (breach.pcap)](#9-corporate-breach-breachpcap)
+10. [Malicious Code (breach.pcap)](#10-malicious-code-breachpcap)
+11. [EZ (ez.pcapng)](#11-ez-ezpcapng)
+12. [Stegography (image.pcap)](#12-stegography-imagepcap)
+13. [22 Nightmare (oimazrim.pcap)](#13-22-nightmare-oimazrimpcap)
+14. [Pegawai Negeri Sebelah (rahasia.pcap)](#14-pegawai-negeri-sebelah-rahasiapcap)
+
+## Revisi
+15. [innerRCE](#innerrce)
+16. [simba](#simba)
+17. [Baby Hengker](#baby-hengker)
+18. [Adult Hengker](#adult-hengker)
+
 ### 1. Advance Sanity Check
 ![image](https://github.com/user-attachments/assets/f9946ff3-7f82-435a-89ac-1a3bed12c644)
 Pertama setelah membuka filenya ke Wireshark, saya menemukan jawaban username setelah mencari satu-satu.
